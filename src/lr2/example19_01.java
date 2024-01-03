@@ -12,7 +12,7 @@ public class example19_01 {
         System.out.print("Enter a number to check the division by 3: ");
         userStr = scanner.next();
 
-        while (!isNumber(userStr)){
+        while (!isNumber(userStr)) {
 
             System.out.println("Error. Invalid input data. Repeat again.");
             System.out.print("Enter a number to check the division by 3: ");
